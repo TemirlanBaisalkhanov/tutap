@@ -1,0 +1,60 @@
+body {
+    background-color: #f0e69d; /* Зеленый цвет */
+}
+
+/* Общий стиль для контейнера */
+.container {
+    max-width: 100%; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера по горизонтали */
+    padding: 20px; /* Поля вокруг контейнера */
+    text-align: center; /* Выравнивание текста по центру для центрирования кнопок */
+}
+
+/* Стили для кнопок */
+.buttons {
+    background-color: #4CAF50; /* Зеленый цвет */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Изменение на инлайн-блочный элемент */
+    font-size: 16px;
+    margin: 10px; /* Удаление автоматического центрирования по горизонтали */
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+.buttons:hover {
+    background-color: #45a049; /* Темно-зеленый цвет при наведении */
+}
+
+/* Стили для изображения */
+.flag {
+    height: 450px; /* Изображение не будет превышать ширину родительского элемента */
+    display: block; /* Изображение будет блочным элементом */
+    margin: 0 auto 20px; /* Автоматическое центрирование изображения по горизонтали и добавление отступа снизу */
+    border-radius: 8px; /* Закругление углов изображения */
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1); /* Тень для изображения */
+}
+
+/* Стили для заголовка h1 */
+.name {
+    text-align: center; /* Выравнивание текста по центру */
+    color: #333; /* Цвет текста */
+    margin-bottom: 20px; /* Отступ снизу для разделения заголовка и контента */
+}
+.count {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    background-color: #4CAF50; /* Зеленый цвет */
+    color: white; /* Цвет текста */
+    padding: 10px 23px; /* Внутренние отступы */
+    border-radius: 50%; /* Закругленные углы */
+    font-size: 40px; /* Размер шрифта */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    z-index: 999; /* Выше других элементов */
+  }
+  
